@@ -2,8 +2,6 @@
 
 Document question answering that reports the cost of every answer, with a signed receipt as proof.
 
-![Track](https://img.shields.io/badge/FORGE-Ship%20It%20Lean-f26b3a?style=flat-square)
-![Powered by Prune](https://img.shields.io/badge/Powered%20by-Prune-111111?style=flat-square)
 ![Tests](https://img.shields.io/badge/tests-204%20passing-2ea44f?style=flat-square)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-Workers%20%7C%20D1%20%7C%20R2-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -269,7 +267,7 @@ node scripts/verify-receipts.mjs athena-receipts.jsonl
 | [`athena.md`](athena.md) | Technical plan: architecture, database, API, tests, benchmark |
 | [`prune.md`](prune.md) | Notes on integrating with Prune |
 | [`athena-content.md`](athena-content.md) | Website and in-app copy |
-| [`docs/pitch.md`](docs/pitch.md) | Pitch deck content, script and judge Q&A |
+| [`docs/pitch.md`](docs/pitch.md) | Pitch deck content, script and Q&A |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | How the team avoids merge conflicts |
 | [`status/`](status) | One status file per team member |
 | [`docs/archive/`](docs/archive) | Earlier plans kept for reference |
@@ -288,7 +286,3 @@ node scripts/verify-receipts.mjs athena-receipts.jsonl
 | Product | Landing page, workspace, chat with citations, live activity timeline, usage panel | Chat without a document; Markdown checkpoint near the limit |
 
 Verified on live services: a real signed Prune receipt, checked locally and by Prune's hosted verifier. Not yet verified: a full receipts-backed benchmark on every arm. We claim only what we have measured.
-
----
-
-Built for FORGE: Ship It Lean, AI Apps on a Budget. Powered by Prune.
